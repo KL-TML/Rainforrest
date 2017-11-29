@@ -1,5 +1,5 @@
 class Review < ApplicationRecord
-  validates :comments, presence: true
+  validates :comment, presence: true
 
   belongs_to :product
 end
